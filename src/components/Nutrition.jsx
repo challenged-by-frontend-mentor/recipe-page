@@ -13,14 +13,20 @@ const Nutrition = () => (
       additional fillings.
     </p>
     <table className="nutrition__table">
-      <tbody className="nutrition__table-content">
+      <caption className="sr-only">Nutritional values per serving</caption>
+      <tbody className="nutrition__body">
         {NUTRITION_DATA.map((item) => (
           <tr className="nutrition__item" key={item.nutrient}>
-                <td className="nutrition__nutrient">{item.nutrient}</td>
-                <td className="nutrition__value">{item.amount}{item.unit}</td>
-            </tr>
+            <th scope="row" className="nutrition__nutrient">
+              {item.nutrient}
+            </th>
+            <td className="nutrition__value">
+              {item.amount}
+              {item.unit}
+            </td>
+          </tr>
         ))}
-        </tbody>
+      </tbody>
     </table>
   </section>
 );
