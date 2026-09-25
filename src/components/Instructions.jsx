@@ -34,13 +34,16 @@ const Instructions = () => (
   <section className="instructions">
     <h2 className="instructions__title">Instructions</h2>
     <ol className="instructions__list">
-        {INSTRUCTION_DATA.map((item) => (
-            <li className="instrucitons__list" key={item.title}>
-                <em className="instructions__list--emphasize">{item.title}:</em> {item.detail}
-            </li>
-        ))}
+      {INSTRUCTION_DATA.map((item) => (
+        <li className="instructions__item" key={item.title}>
+          <span className="instructions__content">
+            <strong className="instructions__label">{item.title}:</strong>{" "}
+            {item.detail}
+          </span>
+        </li>
+      ))}
     </ol>
   </section>
 );
 
-export default Instructions
+export default Instructions;
