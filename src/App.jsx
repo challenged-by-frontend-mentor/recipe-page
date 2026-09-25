@@ -13,9 +13,8 @@ function App() {
       <div className="page-content">
         <img
           src={CoverImage}
-          alt="Omlete with the fired vegetables in the white dish"
+          alt="A folded omelette stuffed with fired green vegetables and herbs on a white plate"
           className="page-content__cover-image"
-          aria-hidden="false"
         />
         <main className="main-content">
           <Hero />
