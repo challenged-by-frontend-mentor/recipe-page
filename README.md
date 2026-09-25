@@ -36,7 +36,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Recipe Page with React, Vite, BEM & WCAG-Compliant Accessibility](https://your-solution-url.com)
+- Solution URL: [Recipe Page with React, Vite, BEM & WCAG-Compliant Accessibility](https://www.frontendmentor.io/solutions/recipe-page-responsive-design-by-html5-and-sassy-css-sass-_FFCZSPcl4)
 - Live Site URL: [Frontend Mentor | Recipe page](https://challenged-by-frontend-mentor.github.io/recipe-page/)
 
 ## My process
